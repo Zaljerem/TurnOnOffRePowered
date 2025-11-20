@@ -13,7 +13,7 @@ public static class Building_WorkTable_UsableForBillsAfterFueling
             return;
         }
 
-        if (TurnItOnandOff.HasEnoughPower(__instance))
+        if (TurnItOnUtility.HasEnoughPower(__instance))
         {
             return;
         }
