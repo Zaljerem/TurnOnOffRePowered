@@ -90,7 +90,7 @@
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>   
 </v1.6>
-  </modDependencies>
+  </modDependenciesByVersion>
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>UnlimitedHugs.HugsLib</li>
