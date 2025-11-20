@@ -88,7 +88,7 @@ namespace TurnOnOffRePowered
             }
 
             var xml = XDocument.Load(hugsLibConfig);
-            var modNodeName = "RemoteTech";
+            var modNodeName = "TurnOnOffRePowered";
 
             var modSettings = xml.Root?.Element(modNodeName);
             if (modSettings == null)
