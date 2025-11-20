@@ -9,6 +9,6 @@ public static class JobDriver_WatchBuilding_WatchTickAction
 {
     public static void Prefix(JobDriver_WatchBuilding __instance)
     {
-        TurnItOnandOff.AddBuildingUsed(__instance.job.targetA.Thing as Building);
+        TurnItOnUtility.AddBuildingUsed(__instance.job.targetA.Thing as Building);
     }
 }

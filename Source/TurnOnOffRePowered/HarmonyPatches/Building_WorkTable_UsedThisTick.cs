@@ -9,6 +9,6 @@ public static class Building_WorkTable_UsedThisTick
 {
     public static void Prefix(Building_WorkTable __instance)
     {
-        TurnItOnandOff.AddBuildingUsed(__instance);
+        TurnItOnUtility.AddBuildingUsed(__instance);
     }
 }
