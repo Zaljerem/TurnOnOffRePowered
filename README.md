@@ -29,6 +29,7 @@ Its safe to add and remove from saves, and should not affect performance any mor
 - Added setting for blocking work if power is low, all workbenches that inherits the vanilla class should now block usage if there is not enough power stored or being generated.
 - French translation added, thanks qux!
 - Russian translation added, thanks Reiquard!
+- As of 1.6, this mod no longer requires HugsLib, thanks to Zaljerem!
 
 If you want, you can use this along with my patch-pack for RePower:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1836577627

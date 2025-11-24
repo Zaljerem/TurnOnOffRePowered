@@ -42,7 +42,7 @@ public static class TurnItOnUtility
     private static bool selfLitHydroponicsIsLoaded;
     private static HashSet<ThingDef> thingDefsToLookFor;
     private static readonly HashSet<Building_Turret> Turrets = new();
-    public static readonly List<string> AlwaysIgnored = new() { "Furnace" };
+    public static readonly List<string> AlwaysIgnored = new() { "Furnace", "ServerRack" };
     public static readonly List<Type> AlwaysIgnoredClass = new() { typeof(Building_MechGestator) };
     public static readonly HashSet<Building> buildingsInUseThisTick = new();
     public static readonly HashSet<Building> buildingsThatWereUsedLastTick = new();

@@ -1,5 +1,8 @@
 # Changelog for TurnOnOffRePowered
 
+1.6.2 - Ignore server rack, fixed typo
+
+
 1.6.1 - Removed HugsLib requirement, thanks Zaljerem!
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 
